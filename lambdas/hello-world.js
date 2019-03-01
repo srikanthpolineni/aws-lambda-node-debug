@@ -1,6 +1,4 @@
 exports.handler = (event, context, callback) => {
-
-    debugger;
     const response = {
         'statusCode': 200,
         'body': JSON.stringify({
