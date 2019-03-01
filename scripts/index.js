@@ -1,6 +1,5 @@
 'use strict';
 
-const pify = require('pify');
 const argvParser = require('minimist');
 const fs = require('fs');
 
@@ -21,8 +20,8 @@ const callback = function (error, data) {
         console.log(data);
 }
 
-
-const lambda = require(args.f);
+const baseDir = process.cwd();
+const lambda = require(baseDir + '/' + args.f);
 if (!args.h)
     args.h = getHandlerName(lambda);
 
