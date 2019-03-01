@@ -41,7 +41,7 @@ if (lambda.hasOwnProperty(args.h)) {
                 console.log(response);
         })();
 
-    } else if (lambda[args.h] === 'function') {
+    } else if (typeof lambda[args.h] === 'function') {
         const response = lambda[args.h](event, context, callback);
         if (response)
             console.log(response);

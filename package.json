@@ -1,7 +1,7 @@
 {
   "name": "aws-lambda-node-debug",
   "homepage": "https://github.com/srikanthpolineni/aws-lambda-node-debug#readme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node module for debugging lambda in the VS code",
   "repository": {
     "type": "git",
