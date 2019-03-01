@@ -24,7 +24,7 @@ Node module for debugging lambda in the VS code
         "type": "node",
         "request": "launch",
         "name": "Lambda Debug",
-        "program": "${workspaceFolder}\\node_modules\\.bin\\aws-lambda-node-debug",
+        "program": "${workspaceFolder}\\hello-world\\node_modules\\aws-lambda-node-debug\\bin\\aws-lambda-node-debug",
         "args": [
             "-f",
             "${workspaceFolder}/lambdas/hello-world",
