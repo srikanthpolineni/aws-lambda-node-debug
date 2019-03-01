@@ -1,0 +1,35 @@
+{
+  "name": "aws-lambda-node-debug",
+  "homepage": "https://github.com/srikanthpolineni/aws-lambda-node-debug#readme",
+  "version": "1.0.0",
+  "description": "Node module for debugging lambda in the VS code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srikanthpolineni/aws-lambda-node-debug"
+  },
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "aws-lambda-node-debug": "./bin/aws-lambda-node-debug"
+  },
+  "keywords": [
+    "AWS",
+    "LAMBDA",
+    "NODS",
+    "DEBUG",
+    "VSCODE"
+  ],
+  "author": "Srikanth Polineni",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "mocha": "^6.0.2",
+    "pify": "^4.0.1",
+    "rewire": "^4.0.1"
+  }
+}
