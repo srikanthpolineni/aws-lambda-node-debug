@@ -9,7 +9,7 @@
   },
   "main": "scripts/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests/lambdas/"
   },
   "bin": {
     "aws-lambda-node-debug": "./bin/aws-lambda-node-debug"
