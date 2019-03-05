@@ -3,7 +3,7 @@
 
 aws-lambda-node-debug
 ==============
-Node module for debugging lambda in the VS code
+Node module for debugging lambda in the VS code without docker.
 
 
 
