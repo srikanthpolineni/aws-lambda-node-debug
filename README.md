@@ -6,6 +6,7 @@ aws-lambda-node-debug
 Node module for debugging lambda in the VS code
 
 
+
 * [Quick Start](#quick-start)
 * [License](#licensing)
 
@@ -51,9 +52,11 @@ Handler method name
 *Required*<br>
 Absolute file path of the event data json file
 
+![alt text](http://drive.google.com/uc?export=view&id=1qD4be8g0-7Oh2DmtWRt_cDLGDntI2_1S)
+
 
 ## <a name="licensing"></a>Licensing
 
-Serverless is licensed under the [MIT License](./LICENSE.txt).
+aws-lambda-node-debug is licensed under the [MIT License](./LICENSE.txt).
 
 All files located in the node_modules and external directories are externally maintained libraries used by this software which have their own licenses; we recommend you read them, as their terms may differ from the terms in the MIT License.
